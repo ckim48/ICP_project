@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.065,=C:\Users\민준\OneDrive\문서\Embarcadero\Studio\Projects\Project2PCH2.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.301,C:\Users\민준\OneDrive\문서\Embarcadero\Studio\Projects\Project2PCH2.h=C:\ICP Project\Project2PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.320,C:\Users\민준\OneDrive\문서\Embarcadero\Studio\Projects\Project2.cbproj=C:\ICP Project\Project2.cbproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.977,=C:\ICP_Project-main\uSettings.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.293,C:\Users\민준\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.h=C:\ICP Project\Unit1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.657,=C:\ICP Project\Unit4.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.728,=C:\ICP_Project-main\uMain.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.801,=C:\Users\민준\OneDrive\문서\Embarcadero\Studio\Projects\Project2PCH2.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.293,C:\Users\민준\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.cpp=C:\ICP Project\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.776,=C:\Users\민준\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.150,=C:\Users\민준\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.685,=C:\ICP_Project-main\Unit6.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.115,=C:\ICP Project\Unit3.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.145,=C:\ICP Project\Unit5.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.293,C:\Users\민준\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.fmx=C:\ICP Project\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.290,=C:\ICP Project\Unit2.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

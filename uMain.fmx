@@ -1,0 +1,64 @@
+object CameraComponentForm: TCameraComponentForm
+  Left = 0
+  Top = 0
+  Caption = 'Chadwick Lost & Found'
+  ClientHeight = 580
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object imgCameraView: TImage
+    MultiResBitmap = <
+      item
+      end
+      item
+        Scale = 2.000000000000000000
+      end>
+    Align = Client
+    Size.Width = 384.000000000000000000
+    Size.Height = 520.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnStartStopCamera: TButton
+    Action = actStart
+    Align = Bottom
+    Enabled = True
+    ImageIndex = -1
+    ModalResult = 1
+    Margins.Left = 16.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 16.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 528.000000000000000000
+    Size.Width = 352.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object CameraComponent: TCameraComponent
+    OnSampleBufferReady = CameraComponentSampleBufferReady
+    Left = 32
+    Top = 152
+  end
+  object ActionList: TActionList
+    OnExecute = ActionListExecute
+    OnUpdate = ActionListUpdate
+    Left = 104
+    Top = 104
+    object actStart: TAction
+      Text = 'Start'
+      OnExecute = actStartExecute
+    end
+    object actStop: TAction
+      Text = 'Stop'
+      OnExecute = actStopExecute
+    end
+    object actShowSettings: TAction
+      Text = 'Settings'
+      OnExecute = actShowSettingsExecute
+    end
+  end
+end
